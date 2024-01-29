@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display</title>
+
+    <style>
+        .header {
+            color: black;
+            font-family: cursive;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+        /*a merupakan display elemen inline*/
+        a {
+            background-color: greenyellow;
+            width: 200px;
+            height: 50px;
+            display: inline-block;
+        /*a dapat diubah t dan l nya dengan mengubah display-nya menjadi elemen inline-block*/
+        }
+
+        /*main merupakan display elemen block*/
+        .main {
+            width: 900px;
+            background-color: aquamarine;
+        /*main h2 merupakan display elemen block*/
+        }
+        .main h2 {
+            background-color: hotpink;
+        }
+    </style>
+    <style>
+        .navigasi {
+            color: black;
+            font-family: cursive;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="header">
+    <h1>Selamat datang di Rumah Bimbel Pintar</h1>
+    </div>
+
+    <div class="navigasi">
+        <h2>Daftar Less</h2>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+        </ul>
+        
+    </div>
+    <div class="main">
+        <h2>Our Lesson</h2>
+        <img src="rumahbimbel.png">
+
+        <p><span>ipsum dolor sit amet consectetur</span>  adipisicing elit. Deserunt fugiat non nostrum velit hic, sint nobis repellendus tempore. Quaerat iure nemo consectetur iusto ipsam odio et laborum modi suscipit distinctio atque ex, accusantium id! Voluptatum maiores fugit officiis voluptatibus eos.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iste officia necessitatibus voluptatem, sed illo aut tempora? Deserunt laborum qui delectus quam ea, expedita maxime, quidem pariatur porro, cumque laboriosam? Repudiandae debitis vitae blanditiis sunt voluptatum deleniti necessitatibus consectetur asperiores libero quod eligendi iure nemo molestiae autem amet ut tempora ducimus sit natus atque, quaerat dolore! Inventore animi voluptatum veritatis?</p>
+    </div>
+    
+    <div class="copyright">
+        <p class="copyright">Copyright 2022. Rumah Bimbel Pintar.</p>
+    </div>
+
+</body>
+</html>
